@@ -1,0 +1,56 @@
+{
+    "fullName": "TOĞRUL NÜSRƏTLİ",
+    "position": "INFORMATION SECURITY STUDENT",
+    "contacts": [
+        { "icon": "phone.png", "value": "+994 55 382 95 44" },
+        { "icon": "email.png", "value": "togrulnusrtli2@gmail.com" },
+        { "icon": "location.png", "value": "Azerbaijan, Baku – Ajami" }
+    ],
+    "socials": [
+        { "icon": "instagram.png", "handle": "22togrull" },
+        { "icon": "tik-tok.png", "handle": "10togrull" },
+        { "icon": "github.png", "handle": "tog641" }
+    ],
+    "educationHistory": [
+        { "duration": "2013 – 2024", "institution": "Ahliman Gasimov Secondary School" },
+        { "duration": "2024 – Present", "institution": "AzTU – Information Security" }
+    ],
+    "skills": ["VS Code", "MS Office Tools", "DaVinci Resolve"],
+    "languages": ["Azerbaijani", "English", "Turkish"],
+    "summary": "Organized and tech-focused individual with experience in digital content creation and technical support. Strong in teamwork and problem solving.",
+    "workHistory": [
+        {
+            "role": "Content Creator | Freelance",
+            "responsibilities": [
+                "Developed short-form videos across social platforms.",
+                "Built a consistent online presence.",
+                "Monitored performance using analytics tools."
+            ]
+        },
+        {
+            "role": "Customer Service Rep | NetLink Services",
+            "responsibilities": [
+                "Assisted users with technical problems.",
+                "Maintained customer satisfaction.",
+                "Handled issue escalation effectively."
+            ]
+        }
+    ],
+    "certifications": [
+        {
+            "title": "AWS Certified Cloud Practitioner",
+            "detail": "Covers cloud concepts, billing, security, and AWS services basics."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Task Manager App",
+            "description": "Developed a desktop task tracking app using C# and .NET."
+        },
+        {
+            "name": "Network Monitoring Lab",
+            "description": "Simulated a network for security monitoring and analysis."
+        }
+    ],
+    "reference": "Ayşe Nur mentored me during my university years, especially guiding me in cybersecurity topics and project planning."
+}

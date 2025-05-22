@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Toğrul Nüsrətli - CV</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <img src="photos/profile.jpg" alt="Profile Picture" class="profile-picture"/>
+
+      <div class="accordion-section">
+        <button class="accordion-btn">Contact</button>
+        <div class="accordion-panel" id="contact-info">
+            <form action="" id="contact-form">
+                <input type="text" placeholder="Location" id="location">
+                <input type="email" placeholder="Email" id="email">
+                <input type="number" placeholder="Phone" id="phone">
+            </form>
+        </div>
+
+        <button class="accordion-btn">Social Media</button>
+        <div class="accordion-panel" id="socials"></div>
+
+        <button class="accordion-btn">Education</button>
+        <div class="accordion-panel" id="education"></div>
+
+        <button class="accordion-btn">Skills</button>
+        <div class="accordion-panel">
+          <ul id="skill-list"></ul>
+          <input type="text" id="skill-input" placeholder="Add new skill">
+          <button id="add-skill">Add Skill</button>
+        </div>
+
+        <button class="accordion-btn">Languages</button>
+        <div class="accordion-panel">
+          <ul id="language-list"></ul>
+          <input type="text" id="language-input" placeholder="Add new language">
+          <button id="add-language">Add Language</button>
+        </div>
+        <button id="save-profile">Save Profile</button>
+        <button id="reset-default">Reset Profile</button>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <h1 id="name">TOĞRUL <span class="highlight">NÜSRƏTLİ</span></h1>
+      <h3 id="position">INFORMATION SECURITY STUDENT</h3>
+      <hr />
+
+      <div class="accordion-section">
+        <button class="accordion-btn">Profile Summary</button>
+        <div class="accordion-panel" id="summary"></div>
+
+        <button class="accordion-btn">Work Experience</button>
+        <div class="accordion-panel" id="work-history"></div>
+
+        <button class="accordion-btn">Certifications</button>
+        <div class="accordion-panel" id="certifications"></div>
+
+        <button class="accordion-btn">Projects</button>
+        <div class="accordion-panel" id="projects"></div>
+
+        <button class="accordion-btn">Reference</button>
+        <div class="accordion-panel" id="reference"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
